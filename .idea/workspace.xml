@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c42841d2-335e-4f22-89e1-76bd5911a630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codeWithMosh/TaxCalculator2018.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codeWithMosh/TaxCalculator2019.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeWithMosh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeWithMosh/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeWithMosh/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeWithMosh/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codeWithMosh/TaxReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeWithMosh/TaxReport.java" afterDir="false" />
-    </list>
+    <list default="true" id="c42841d2-335e-4f22-89e1-76bd5911a630" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +32,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "H:/Project/Java"
+    "last_opened_file_path": "G:/NurFaisal/Project/Java-Advanced",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
