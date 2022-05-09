@@ -12,6 +12,10 @@ import java.text.SimpleDateFormat;
 public class ExceptionDemo {
     public static void show(){
         var account = new Account();
-        account.deposit(1);
+        try {
+            account.deposit(1);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
