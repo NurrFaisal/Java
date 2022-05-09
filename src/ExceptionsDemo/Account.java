@@ -9,9 +9,9 @@ public class Account {
             throw new IOException();
         }
     }
-    public void withdraw(float value) throws InsufficientFundsException {
+    public void withdraw(float value) throws AccountException {
         if (value > blance){
-            throw new InsufficientFundsException();
+             throw new AccountException(new InsufficientFundsException());
         }
     }
 }
