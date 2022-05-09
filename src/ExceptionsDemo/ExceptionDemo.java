@@ -11,13 +11,7 @@ import java.text.SimpleDateFormat;
 
 public class ExceptionDemo {
     public static void show(){
-        try (
-                var reader = new FileReader("file.txt");
-                var writer = new FileWriter("...");
-        ) {
-            var value = reader.read();
-        } catch (IOException e){
-            System.out.println("Could not read data !!!");
-        }
+        var account = new Account();
+        account.deposit(1);
     }
 }
