@@ -13,10 +13,9 @@ public class ExceptionDemo {
     public static void show() throws IOException {
         var account = new Account();
         try {
-            account.deposit(-1);
-        } catch (IOException e) {
-            System.out.println("Loggin");
-            throw e;
+            account.withdraw(10);
+        } catch (InsufficientFundsException e) {
+            System.out.println(e.getMessage());
         }
     }
 }
