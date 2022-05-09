@@ -14,13 +14,8 @@ public class ExceptionDemo {
             var reader = new FileReader("file.txt");
             var value = reader.read();
             new SimpleDateFormat().parse("");
-        } catch (FileNotFoundException e) {
-            System.out.println("File does not exit !!!");
-        } catch (IOException e){
+        } catch (IOException | ParseException e){
             System.out.println("Could not read data !!!");
-        } catch (ParseException e) {
-            throw new RuntimeException(e);
         }
     }
-
 }
