@@ -7,11 +7,12 @@ import java.sql.SQLOutput;
 public class ExceptionDemo {
     public static void show(){
         try {
-        var reader = new FileReader("file.txt");
-        System.out.println("File Opened");
-        } catch (FileNotFoundException ex){
-            System.out.println(ex.getMessage());
+            var reader = new FileReader("file.txt");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
         }
+        System.out.println("File Opened");
+
     }
 
 }
