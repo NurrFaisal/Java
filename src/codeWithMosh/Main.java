@@ -1,15 +1,11 @@
 package codeWithMosh;
 
-import ExceptionsDemo.ExceptionDemo;
 
-import java.io.IOException;
+import generics.List;
 
 public class Main {
     public static void main(String[] args){
-        try {
-            ExceptionDemo.show();
-        } catch (Throwable e) {
-            System.out.println("an unexpected error occurred");
-        }
+       var list = new List();
+       list.add(1);
     }
 }
