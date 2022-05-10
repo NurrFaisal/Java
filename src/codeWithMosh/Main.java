@@ -1,14 +1,11 @@
 package codeWithMosh;
 
 
-import generics.GenericList;
-import generics.List;
-import generics.User;
-import generics.Utils;
+import generics.*;
 
 public class Main {
     public static void main(String[] args){
-       var utils = new Utils();
-       utils.print(1, "Nur");
+        User user = new Instrutor(10);
+        Utils.printUser(new Instrutor(20));
     }
 }

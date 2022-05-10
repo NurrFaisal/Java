@@ -1,6 +1,6 @@
 package generics;
 
-public class User implements Comparable<User>{
+public class User implements Comparable<User>, Cloneable {
     private int points;
     public User(int points){
         this.points = points;

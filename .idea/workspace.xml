@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c42841d2-335e-4f22-89e1-76bd5911a630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generics/KeyValuePair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/Instrutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/codeWithMosh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codeWithMosh/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generics/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/Utils.java" afterDir="false" />
