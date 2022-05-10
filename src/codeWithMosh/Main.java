@@ -7,11 +7,11 @@ import generics.User;
 
 public class Main {
     public static void main(String[] args){
-//      var list = new GenericList<Integer>();
-      var list = new GenericList<User>();
-//      list.add(10);
-//      int number = list.get(0);
-      list.add(new User());
-      User user = list.get(0);
+        // int -> Integer
+        // float -> Float
+        // boolean -> Boolean
+        GenericList<Integer> numbers = new GenericList<>();
+        numbers.add(1); //Boxing
+        numbers.get(0); //Unboxing
     }
 }
