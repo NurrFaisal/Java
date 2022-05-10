@@ -18,4 +18,8 @@ public class User implements Comparable<User>{
 //            return 0;
 //        return -1;
     }
+    @Override
+    public String toString(){
+        return "Points = "+ points;
+    }
 }
